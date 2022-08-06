@@ -1,0 +1,312 @@
+/* Header start */
+.header{
+  overflow: hidden;
+	background-color: #FFFFFF;
+}
+.wrapper{
+  width: 100%;
+}
+.logo{
+  width: 30%;
+  float: left;
+  margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.navigation{
+  width: 45%;
+  float: right;
+}
+.fab{
+	font-size: 22px;
+	padding: 3px;
+}
+.navbar_area{
+	margin-top: 20px;
+	float: right;
+	padding: 0;
+}
+.navbar{
+	float: right;
+	padding: 0;
+}
+ul li {
+	padding-left: 10px;
+}
+ul li a{
+  font-weight: 700;
+	color:black;
+}
+.s-icon{
+  color: #F03C02 !important;
+  
+}
+.active{
+	text-decoration: underline;	
+}
+.s-icon:hover{
+  transform: rotateZ(340deg);
+   color: #62C11D !important;
+} 
+
+/* Header end */
+/* website start */
+.website{
+	padding: 50px 0;
+}
+.w_site{
+font-weight: normal;
+color: #3C3B3B;
+}
+.web{
+  color: #F03C02;
+}
+/* website end */
+/* about start */
+.ab{
+  padding:60px 0;
+  background-color: #f5f5f5;
+}
+.h2{
+  font-family: Garamond;
+  font-size: 42px;
+}
+.ab_content p{
+  font-family: Comic Sans MS;
+}
+/* about end */
+/* Service start */
+.service{
+	padding: 50px 0;
+}
+
+.geeks {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.5);
+}
+
+.h2{
+	margin: 0px 0 50px 20px;
+}
+.service1{
+	margin-bottom: 30px;
+	padding:30px 0;
+	border: 2px solid #f5f5f5;
+	box-shadow: -1px 5px 10px -6px;
+}
+.ser_p{
+	padding:15px 18px 0 18px;
+}
+.s_icon{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #F03C02;
+}
+.tv{
+	margin:36% 27%;
+	font-size: 30px;
+	color: #ffffff;
+}
+.apple{
+	margin:20% 27%;
+	font-size: 40px;
+	color: #ffffff;
+}
+.page{
+	margin:22% 32%;
+}
+.last{
+	margin:36% 38%;
+}
+.learn a{
+	color: #F03C02;
+}
+/* Service end */
+
+/* Recent work start */
+.work{
+	padding:30px 0;
+  background-color: #f5f5f5;
+}
+.item{
+	width:21%;
+	float:left;
+	margin:30px 34px 20px 20px;
+}
+.item1{
+	margin-right: 0;
+}
+.ul{
+	padding-left: 20px;
+}
+
+.item img{
+	width: 100%;
+}
+.blank{
+  width: 100%;
+  height: 70px;
+  background-color: #f5f5f5;
+}
+ 
+
+/* satisfied clients start */
+.clients{
+  padding:30px 0;
+}
+ .slider {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+    .slick-slide img {
+      width: 100%;
+      height: 80px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+}
+/* satisfied clients end */
+/* Footer start */
+.footer_main{
+  padding:30px 0;
+	background-color: #111111;
+}
+.f1{
+	color: #C6C6C6;
+}
+.f1 p{
+	font-weight: 300;
+	padding:0;
+	color:#BBBBBB;
+}
+.f1 a{
+	font-weight: 300;
+	color: #BBBBBB;
+}
+.f1 a:hover{
+	color:#F03C02;
+	text-decoration: none;
+}
+.f2{
+	margin-left: 2%;
+}
+/* Footer end */
+/* Under footer start */
+.up_footer{
+  padding:50px 0;
+	background-color: #111111;
+}
+.down_footer{
+  padding:10px 0;
+  background-color: #0A0A0A;
+}
+.uf{
+	padding: 10px 0;
+
+}
+.icon:hover{
+  transform: rotate(340deg);
+  color: #109E51;
+}
+.icon{
+	color:#C03E0B;
+}
+.s-icon{
+	color:#109E51;
+}
+.mh{
+  color: #109E51;
+}
+.container p{
+   margin:0;
+   padding-bottom: 4px;
+}
+/* Under footer end */
+/*Top Button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #F26F23;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #F03C02;
+}
+/*Top Button end*/
+
+/* Responsiv start */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+        
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+         
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+        body{
+        	color:red;
+        }
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+        
+
+ }
+/* Responsiv end */

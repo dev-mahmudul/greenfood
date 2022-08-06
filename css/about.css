@@ -1,0 +1,42 @@
+
+
+.about{
+	padding:0px 0 50px 0;
+}
+.company{
+	padding: 50px 20px 50px 20px;
+	margin-top: 80px;
+	background-color: #f5f5f5;
+}
+.about_img{
+	margin: 50px 0 50px 60px;
+}
+.a_up{
+   width: 100%;
+}
+.ah1{
+	padding:126px 0;
+	color: white;
+}
+.about_content h1{
+	font-family: Garamond;
+	padding:30px;
+}
+.about_content h2{
+	font-family: Garamond;
+	padding-bottom: 20px ;
+}
+.comit{
+	margin-bottom: 50px;
+
+}
+.comite{
+	font-family: Garamond;
+	}
+.member{
+	margin-bottom: 50px;
+}
+.vision{
+	font-family: Garamond;
+}
+
